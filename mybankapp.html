@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>First Bank App</title>
+    <link rel="stylesheet" type="text/css" href="bankapp.css">
+</head>
+<body background="281054.jpg">
+    <div class="container">
+        <h1>Welcome to First Bank</h1>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+            <button type="submit">Login</button>
+        </form>
+        <div id="accountInfo" class="hidden">
+            <h2>Account Balance</h2>
+            <p id="balance">$0.00</p>
+            <button onclick="logout()">Logout</button>
+        </div>
+    </div>
+
+    
+<script src="app.js"></script>
+<a href="banking app.html">Home</a>
+</body>
+</html>
